@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <link rel="icon" href="https://avatars.githubusercontent.com/u/158810809?s=400&u=989f189b8cd1c76ecaffdb6dd342fedac9200802&v=4" type="image/png">
+  <meta name="google-site-verification" content="mjFIZTxE_IKhH-lBgPwblCJ1xPugeI5RRe0qnXF10M8" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+  <meta name="theme-color" content="#000">
+  <meta name="msapplication-navbutton-color" content="#000">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+  <title>Frap Developments</title>
+  <meta name="title" content="devuxious - full stack developer">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="English">
+  <meta name="revisit-after" content="2 days">
+  <meta name="author" content="devuxious">
+  <link rel="stylesheet" href="assets/css/index.css" />
+</head>
+
+<body>
+  <div id="not_supported">
+    sorry but THE mobile version doesn't look good right now, <br />
+    check back later :p
+  </div>
+  <div id="video">
+    <video src="./videos/undefined.mp4" autoplay loop muted></video>
+  </div>
+  <div id="main">
+    <header>
+      <ul>
+        <li style="float:left;">
+          <img src="./assets/images/logo.png" alt="funny's logo" />
+        </li>
+        <li><a class="swipe" href="mailto:bladethesequel@gmail.com" tabindex="4">contact</a></li>
+        <li><a class="swipe" href="https://github.com/thealmightyrayyan" tabindex="2">web</a></li>
+      </ul>
+    </header>
+    <span>frap developments</span>
+    <div>
+      this platform is designed <br />
+      to empower users with <br />cutting edge ai tools
+  </div>
+  <div id="button-container">
+      <button class="btn" onclick="window.open('https://chatcipher.streamlit.app/')">Chatbot AI</button>
+      <button class="btn" onclick="window.open('https://huggingface.co/spaces/devuxious/PowerPoint-AI/')">PowerPoint AI</button>
+      <button class="btn" onclick="window.open('https://difyai.streamlit.app/')">TextToImage AI</button>
+  </div>
+    <footer>
+      <ul>
+        <li style="float:left"><b id="distance">0.00</b> m</li>
+        <li>
+          <a href="https://github.com/thealmightyrayyan"><i class="fab fa-github"></i></a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+  </div id="button-container">
+  <script type="text/javascript">
+    var origin = 0.00;
+    setInterval(function () {
+      document.querySelector("#distance").innerHTML = Math.ceil(origin);
+      origin += 1.9;
+    }, 100)
+  </script>
+</body>
+
+</html>
